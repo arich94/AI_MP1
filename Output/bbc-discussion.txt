@@ -1,0 +1,5 @@
+1.11 a)
+I believe th f1-score is best suited for this metric because it takes into account both precision and recall. Both of these metrics are necessary as they each measure the success of our Naive Bayes algorithm in a different way. By taking both into account with the f1 score, we have a more complete idea of how well the classification performed.
+
+1.11 b)
+The performance of steps 8-10 are nearly identical to the performance of step 7. I believe this is because the lack of appearance of a given word in a given class does not drastically alter the results of the Naive Bayes as it would with a perceptron. Thus, smoothing will have less of an effect over the results. Also, if a given word does not appear anywhere in a class, then it is extremely unlikely that our file belongs in that class.

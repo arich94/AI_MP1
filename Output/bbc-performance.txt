@@ -1,0 +1,220 @@
+------------------------------
+a) MultinomialNB default values, try 1
+
+b) - Confusion Matrix
+ [[ 87   1   1   0   0]
+ [  0  84   0   0   0]
+ [  2   1  80   0   0]
+ [  0   0   0 105   0]
+ [  2   2   1   0  79]] 
+
+c)                precision    recall  f1-score   support
+
+     business       0.98      0.96      0.97        91
+entertainment       1.00      0.95      0.98        88
+     politics       0.96      0.98      0.97        82
+        sport       1.00      1.00      1.00       105
+         tech       0.94      1.00      0.97        79
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+d) - Prior probability of each class:
+     business - 0.23
+entertainment - 0.17
+     politics - 0.19
+        sport - 0.23
+         tech - 0.18
+f) - Size of vocabulary:
+ 29421 
+
+g) - Number of word-tokens in each class:
+     business -  164663 
+entertainment -  124893 
+     politics -  185208 
+        sport -  162953 
+         tech -  198640 
+
+h) - Number of word-tokens in the entire corpus:
+ 836357 
+
+i) - Number of word with a frequency of 0 in each class:
+     business -  14911248 
+entertainment -  11286545 
+     politics -  12174005 
+        sport -  14942521 
+         tech -  11698152
+Percentages do not make sense. These values seem off.
+
+j) - Number of words in the entire corpus with a frequency of 1:
+ 319824 (38.24%)
+
+k) Log probability of two given words:
+Word One:  -13.636810834406809 
+Word Two:  -12.943663653846864
+------------------------------
+a) MultinomialNB default values, try 2
+
+b) - Confusion Matrix
+ [[ 87   1   1   0   0]
+ [  0  84   0   0   0]
+ [  2   1  80   0   0]
+ [  0   0   0 105   0]
+ [  2   2   1   0  79]] 
+
+c)                precision    recall  f1-score   support
+
+     business       0.98      0.96      0.97        91
+entertainment       1.00      0.95      0.98        88
+     politics       0.96      0.98      0.97        82
+        sport       1.00      1.00      1.00       105
+         tech       0.94      1.00      0.97        79
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+d) - Prior probability of each class:
+     business - 0.23
+entertainment - 0.17
+     politics - 0.19
+        sport - 0.23
+         tech - 0.18
+f) - Size of vocabulary:
+ 29421 
+
+g) - Number of word-tokens in each class:
+     business -  164663 
+entertainment -  124893 
+     politics -  185208 
+        sport -  162953 
+         tech -  198640 
+
+h) - Number of word-tokens in the entire corpus:
+ 836357 
+
+i) - Number of word with a frequency of 0 in each class:
+     business -  14911248 
+entertainment -  11286545 
+     politics -  12174005 
+        sport -  14942521 
+         tech -  11698152
+Percentages do not make sense. These values seem off.
+
+j) - Number of words in the entire corpus with a frequency of 1:
+ 319824 (38.24%)
+
+k) Log probability of two given words:
+Word One:  -13.636810834406809 
+Word Two:  -12.943663653846864
+------------------------------
+a) MultinomialNB smoothing=0.0001, try 3
+
+b) - Confusion Matrix
+ [[ 87   1   1   1   0]
+ [  0  83   0   0   0]
+ [  2   2  79   0   0]
+ [  0   0   0 104   0]
+ [  2   2   2   0  79]] 
+
+c)                precision    recall  f1-score   support
+
+     business       0.97      0.96      0.96        91
+entertainment       1.00      0.94      0.97        88
+     politics       0.95      0.96      0.96        82
+        sport       1.00      0.99      1.00       105
+         tech       0.93      1.00      0.96        79
+
+     accuracy                           0.97       445
+    macro avg       0.97      0.97      0.97       445
+ weighted avg       0.97      0.97      0.97       445
+
+d) - Prior probability of each class:
+     business - 0.23
+entertainment - 0.17
+     politics - 0.19
+        sport - 0.23
+         tech - 0.18
+f) - Size of vocabulary:
+ 29421 
+
+g) - Number of word-tokens in each class:
+     business -  164663 
+entertainment -  124893 
+     politics -  185208 
+        sport -  162953 
+         tech -  198640 
+
+h) - Number of word-tokens in the entire corpus:
+ 836357 
+
+i) - Number of word with a frequency of 0 in each class:
+     business -  14911248 
+entertainment -  11286545 
+     politics -  12174005 
+        sport -  14942521 
+         tech -  11698152
+Percentages do not make sense. These values seem off.
+
+j) - Number of words in the entire corpus with a frequency of 1:
+ 319824 (38.24%)
+
+k) Log probability of two given words:
+Word One:  -13.636810834406809 
+Word Two:  -12.943663653846864
+------------------------------
+a) MultinomialNB smoothing = 0.9, try 4
+
+b) - Confusion Matrix
+ [[ 87   1   1   0   0]
+ [  0  84   0   0   0]
+ [  2   1  80   0   0]
+ [  0   0   0 105   0]
+ [  2   2   1   0  79]] 
+
+c)                precision    recall  f1-score   support
+
+     business       0.98      0.96      0.97        91
+entertainment       1.00      0.95      0.98        88
+     politics       0.96      0.98      0.97        82
+        sport       1.00      1.00      1.00       105
+         tech       0.94      1.00      0.97        79
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+d) - Prior probability of each class:
+     business - 0.23
+entertainment - 0.17
+     politics - 0.19
+        sport - 0.23
+         tech - 0.18
+f) - Size of vocabulary:
+ 29421 
+
+g) - Number of word-tokens in each class:
+     business -  164663 
+entertainment -  124893 
+     politics -  185208 
+        sport -  162953 
+         tech -  198640 
+
+h) - Number of word-tokens in the entire corpus:
+ 836357 
+
+i) - Number of word with a frequency of 0 in each class:
+     business -  14911248 
+entertainment -  11286545 
+     politics -  12174005 
+        sport -  14942521 
+         tech -  11698152
+Percentages do not make sense. These values seem off.
+
+j) - Number of words in the entire corpus with a frequency of 1:
+ 319824 (38.24%)
+
+k) Log probability of two given words:
+Word One:  -13.636810834406809 
+Word Two:  -12.943663653846864
