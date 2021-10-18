@@ -1,3 +1,6 @@
+GitHub Repository URL:
+https://github.com/arich94/AI_MP1
+
 To run experiments:
 
 Make sure Python version 3.8 or later is installed, along with sci-kit learn, pandas, and matplotlib.
